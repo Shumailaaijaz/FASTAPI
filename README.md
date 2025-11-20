@@ -1,29 +1,18 @@
-# 🏦 SecureBank - Modern Banking Application
+Step 1: Authenticate the User
 
-A beautiful, modern banking application built with FastAPI.
+🔐 Enter the Name + PIN to unlock access — like stepping into your own digital VIP vault.
 
-## ✨ Features
+Step 2: /bank-transfer
 
-- 🔐 Secure user authenticatication
-- 
-## 🚀 Quick Start
+💸 Transfer money from the sender to the receiver (don’t worry… no real money was harmed during this process 😂).
 
-### 1. Start the FastAPI Backend
+📉 The sender’s balance decreases
+📈 The receiver’s balance increases
+(If only real banks processed transfers this fast 😭)
 
-\`\`\`bash
-uvicorn main:app --reload
-\`\`\`
+Step 3: Re-authenticate the Receiver
 
-## 👤 Demo Accounts
+🔄 Log in again using the receiver’s details to confirm the updated balance.
 
-- **User 1:** Username: `shumaila`, PIN: `1122`, Balance: $5,000
-- **User 2:** Username: `ali`, PIN: `3333`, Balance: $3,000
-- **User 3:** Username: `anas`, PIN: `2222`, Balance: $50,000
-
-
-## 🎨 Design Features
-
-- Real-time balance updates
-
-Enjoy your modern banking experience! 🎉
-"# FASTAPI" 
+FastAPI basically replies:
+“Good news… your money has officially left you!” 😂
