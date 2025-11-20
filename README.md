@@ -8,13 +8,7 @@ A beautiful, modern banking application built with FastAPI.
 - 
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
-
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
-
-### 2. Start the FastAPI Backend
+### 1. Start the FastAPI Backend
 
 \`\`\`bash
 uvicorn main:app --reload
